@@ -2,10 +2,9 @@ import Layout from '../Components/Layout'
 import { useQuery, gql } from '@apollo/client';
 import Card from "../Components/Card"
 import Button from '../Components/AddForm'
-import { ItemMeta } from 'semantic-ui-react';
 const Products = () =>{
 
-    const { loading, error, data } = useQuery(GET_DATA);
+    const {  data } = useQuery(GET_DATA);
 
     console.log(data)
     return <Layout>
