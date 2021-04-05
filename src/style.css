@@ -1,0 +1,168 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0a192f;
+    padding:10px 20px;
+}
+
+.navbar-brand{
+    color:#64ffda;
+}
+
+.container{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.navbar-nav{
+    display: flex;
+    justify-self: flex-end;
+    list-style:none;
+    width: 15%;
+    justify-content: space-between;
+    margin: 0;
+    padding:0;
+}
+
+.navbar-nav li{
+    margin:0;
+    padding:0;
+}
+
+.nav-link{
+    display: block;
+    padding:7px 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #64ffda;
+}
+
+
+
+.footer{
+    height: 8vh;
+    background: #0a192f;
+    padding:0px 30px;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin:0;
+    padding: 0;
+}
+
+.social-links ul{
+    display: flex;
+    list-style:none;
+    width: 10vw;
+    padding:0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.social-links li{
+    padding: 0;
+    margin: 0;
+}
+.social-links li a{
+    margin: 0;
+    padding: 0;
+}
+.social-icon{
+    font-size: 20px;
+    color: white;
+}
+
+
+.layout-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.home{
+    display: flex;
+}
+
+.home-left{
+    flex:1 1 60rem;
+}
+
+.home-left h1{
+    margin:0;
+    padding:0;
+    font-size: 40px;
+}
+
+.home-left p{
+    width: 60%;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.mainButton{
+    padding:15px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    background: #0a192f;
+    color:#64ffda;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+.home-right{
+    flex:1 1 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img{
+    width: 250px;
+}
+
+
+.products{
+    border:1px solid red;
+    min-height: 100vh;
+    
+    padding:20px 0;
+}
+
+.products-header{
+    text-align: center;
+    margin:20px 0;
+}
+
+.products-info{
+    display: grid;
+    row-gap: 10px;
+    align-items: center;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ui.card{
+    margin:0;
+}
+.addMore{
+    background:#0a192f;
+    color:#64ffda;
+}
+
